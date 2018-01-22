@@ -1,0 +1,198 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>Lay Out</title>
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/css/styles.css">
+    <link href="~/Content/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-inverse" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="#" class="navbar-brand scroll-top logo"><b>Easy Scheduling</b></a>
+                        </div>
+                        <!--/.navbar-header-->
+                        <div id="main-nav" class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav" id="mainNav">
+                                <li class="active"><a href="http://localhost:59367/Schedule/Index" class="scroll-link">Home</a></li>
+                                <li><a href="#aboutUs" class="scroll-link">Log Out</a></li>
+
+                            </ul>
+                        </div>
+                        <!--/.navbar-collapse-->
+                    </nav>
+                </div>
+            </div>
+            <!--/.navbar-->
+        </div>
+        <!--/.container-->
+    </div>
+    <!--/.header-->
+
+
+    <div>
+
+        <div class="text-center">
+            <div class="login-form">
+                <div>
+                    <a href="http://localhost:59367/Schedule/Index">
+
+                        <div class="row">
+                            <div class="col-sm-4 col-xs-12 text-center">
+                                <img src="/Content/Images/aiub_logo_92x92.png" height="92" />
+                            </div>
+
+                            <div class="col-sm-8 col-xs-12">
+                                <blockquote>
+                                    <p class="aiub_title">Easy Scheduling</p>
+                                    <small class="aiub_slogan">For admin login only</small>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <br />
+                    <div class="login_header">Sign in with your organizational id number.</div>
+                    <form action="/" method="post" role="form">
+                        <div class="form-group">
+                            <input autocomplete="off" class="form-control" data-val="true" data-val-required="The User Name field is required." id="username" name="UserName" placeholder="User Name" type="text" value="" />
+                            <span class="field-validation-valid" data-valmsg-for="UserName" data-valmsg-replace="true"></span>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" data-val="true" data-val-required="The Password field is required." id="password" name="Password" placeholder="Password" type="password" />
+                            <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-block btn-primary p-lg-left-right" data-ng-click="login()"> Log In </button>
+                        </div>
+                        <div class="login_forgotpassword"><a href="/ForgotPassword">Can’t access your account?</a></div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+
+
+<style>
+    a > div > div.col-sm-4.col-xs-12.text-center > img {
+        margin-top: -4px;
+    }
+
+    form > p > input {
+        width: 50% !important;
+        margin-right: 2px;
+    }
+
+    form > p > a {
+        width: 50% !important;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .login-form {
+        width: 75%;
+        max-width: 350px;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        border: 1px solid #dddddd;
+        background-color: #ffffff;
+        padding-top: 110px;
+    }
+
+    .form-group {
+        margin: 0 0 10px;
+    }
+
+
+
+    input.form-control, textarea.form-control {
+        min-height: 32px;
+        padding-left: 10px;
+        border: 2px solid #e0e0e0;
+        border-radius: 2px;
+        box-shadow: none;
+        color: #494949;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .form-control {
+        padding: 50px;
+        display: block;
+        width: 98%;
+        height: 35px;
+        padding: 6px 12px;
+        font-size: 13px;
+        line-height: 1.42857;
+        color: #7d7d7d;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+    }
+
+
+        .form-control:focus {
+            border-color: #E7856F outline: 0;
+        }
+
+
+
+    input.form-control:hover, textarea.form-control:hover {
+        border-color: #CC4646;
+    }
+
+    input.form-control:focus, textarea.form-control:focus {
+        color: #E7856F border-color:#E7856F
+    }
+
+    .btn {
+        padding: 12px 10px;
+        font-size: 14px;
+        line-height: 14px;
+        border-radius: 2px;
+        border-width: 2px;
+        text-transform: capitalize;
+        width: 99%;
+        cursor: pointer;
+    }
+
+    .btn-primary:hover {
+        background-color: #CC4646;
+    }
+
+    .btn-primary, .btn-primary:focus {
+        color: #fff;
+        background-color: #E7856F;
+    }
+
+    .btn-primary {
+        border-color: transparent;
+    }
+</style>
+</html>
+

@@ -1,0 +1,14 @@
+C:\Users\rezwa\source\repos\EasyScheduling\DataRepository\bin\Debug\DataRepository.dll.config
+C:\Users\rezwa\source\repos\EasyScheduling\DataRepository\bin\Debug\DataRepository.dll
+C:\Users\rezwa\source\repos\EasyScheduling\DataRepository\bin\Debug\DataRepository.pdb
+C:\Users\rezwa\source\repos\EasyScheduling\DataRepository\bin\Debug\EntityFramework.dll
+C:\Users\rezwa\source\repos\EasyScheduling\DataRepository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rezwa\source\repos\EasyScheduling\DataRepository\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\rezwa\source\repos\EasyScheduling\DataRepository\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\rezwa\source\repos\EasyScheduling\DataRepository\bin\Debug\EntityFramework.xml
+C:\Users\rezwa\source\repos\EasyScheduling\DataRepository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rezwa\source\repos\EasyScheduling\DataRepository\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\rezwa\source\repos\EasyScheduling\DataRepository\obj\Debug\DataRepository.csprojResolveAssemblyReference.cache
+C:\Users\rezwa\source\repos\EasyScheduling\DataRepository\obj\Debug\DataRepository.csproj.CoreCompileInputs.cache
+C:\Users\rezwa\source\repos\EasyScheduling\DataRepository\obj\Debug\DataRepository.dll
+C:\Users\rezwa\source\repos\EasyScheduling\DataRepository\obj\Debug\DataRepository.pdb

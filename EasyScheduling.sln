@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyScheduling", "EasyScheduling\EasyScheduling.csproj", "{4E16B640-DF5F-4916-84C2-78EDEBD9F2DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataRepository", "DataRepository\DataRepository.csproj", "{16A03D82-CD96-455E-B9AE-623937056DDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E16B640-DF5F-4916-84C2-78EDEBD9F2DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E16B640-DF5F-4916-84C2-78EDEBD9F2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E16B640-DF5F-4916-84C2-78EDEBD9F2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E16B640-DF5F-4916-84C2-78EDEBD9F2DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A03D82-CD96-455E-B9AE-623937056DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A03D82-CD96-455E-B9AE-623937056DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A03D82-CD96-455E-B9AE-623937056DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A03D82-CD96-455E-B9AE-623937056DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24FFDDC1-3404-48CE-A2A1-88AA8F62B67F}
+	EndGlobalSection
+EndGlobal

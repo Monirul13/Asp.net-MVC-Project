@@ -1,0 +1,56 @@
+﻿@model IEnumerable<DataRepository.MakeRoutine>
+
+@{
+    ViewBag.Title = "ajax";
+    Layout = "~/Views/Shared/RoutineLayout.cshtml";
+}
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.day)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.room)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.slot)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FacultyName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SectionName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CourseName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.day)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.room)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.slot)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FacultyName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SectionName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CourseName)
+        </td>
+   
+    </tr>
+}
+
+</table>

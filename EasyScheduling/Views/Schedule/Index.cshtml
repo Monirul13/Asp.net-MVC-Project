@@ -1,0 +1,85 @@
+﻿@model IEnumerable<EasyScheduling.routineMaker>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/RoutineLayout.cshtml";
+}
+
+<script>
+    $(function () {
+        $(".pre_load").fadeOut(2000, function () {
+            $(".Content").fadeIn(1000)
+        });
+    });
+</script>
+<style>
+    .Content {
+        display: none;
+    }
+    .page_load .img{
+        width: 50px;
+    }
+    .page_load {
+        position: absolute;
+        top: 0;
+        bottom: 0%;
+        left: 0;
+        right: 0%;
+        background-color: white;
+        z-index: 99;
+    }
+</style>
+<div class="pre_load">
+    <img src="~/Content/img/ajax_loader_red_512.gif"/>
+</div>
+<div class="Content">
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.day)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.room)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.slot)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FacultyName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SectionName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CourseName)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.day)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.room)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.slot)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FacultyName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SectionName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CourseName)
+                </td>
+
+            </tr>
+        }
+
+    </table>
+</div>
